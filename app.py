@@ -15,9 +15,7 @@ init_api()
 
 next = openai.Completion.create(
     model="text-davinci-003",
-    prompt="Once upon a time",
-    max_tokens=100,
-    stop=["\n", "Story", "End", "Once upon a time"],
+    prompt="Write a JSON containing primary numbers between 0 and 9 \n\n{\n\t\"prim\es\": [",
 )
 
 print(next)
