@@ -16,7 +16,7 @@ init_api()
 next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
-    max_tokens=5,
+    max_tokens=15,
     temperature=0
 )
 
