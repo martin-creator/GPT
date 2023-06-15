@@ -17,7 +17,7 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=15,
-    temperature=2,
+    top_p=.9 ,
 )
 
 print(next)
@@ -29,3 +29,4 @@ the pricing. Later in this book, we will delve deeper into pricing details'''
 
 # maximum logprobs is 5
 # maximum temperature is 2
+# top_p helps to control the diversity of the output text. It is a probability that the next token
