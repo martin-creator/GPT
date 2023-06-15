@@ -17,24 +17,25 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=100,
-    frequency_penalty=2.0,
-    presence_penalty=2.0,
+    n=2,
 )
 
-print("==== Frequency and Presence Penalty 2.0 ====")
-print(next["choices"][0]["text"])
+print(next)
 
-next = openai.Completion.create(
-    model="text-davinci-003",
-    prompt="Once upon a time",
-    max_tokens=100,
-    frequency_penalty=-2.0,
-    presence_penalty=-2.0,
-)
+# print("==== Frequency and Presence Penalty 2.0 ====")
+# print(next["choices"][0]["text"])
+
+# next = openai.Completion.create(
+#     model="text-davinci-003",
+#     prompt="Once upon a time",
+#     max_tokens=100,
+#     frequency_penalty=-2.0,
+#     presence_penalty=-2.0,
+# )
 
 
-print("==== Frequency and Presence Penalty -2.0 ====")
-print(next["choices"][0]["text"])
+# print("==== Frequency and Presence Penalty -2.0 ====")
+# print(next["choices"][0]["text"])
 
 # print(type(next))
 
@@ -49,6 +50,7 @@ means that 100 tokens are about the same as 75 words. Grasping this will aid you
 the pricing. Later in this book, we will delve deeper into pricing details'''
 
 # maximum logprobs is 5
+# n parameter controls number of outputs
 # maximum temperature is 2
 # top_p helps to control the diversity of the output text. It is a probability that the next token
 
