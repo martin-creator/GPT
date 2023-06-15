@@ -17,8 +17,7 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=100,
-    n=2,
-    best_of=2,
+    stop=["\n", "Story", "End", "Once upon a time"],
 )
 
 print(next)
