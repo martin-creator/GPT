@@ -17,7 +17,8 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=15,
-    temperature=0
+    temperature=0,
+    logprobs=3,
 )
 
 print(next)
