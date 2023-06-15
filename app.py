@@ -17,10 +17,15 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=15,
-    top_p=.9 ,
+    stream=True,
 )
 
-print(next)
+print(type(next))
+
+print(*next, sep="\n")
+
+for i in next:
+    print(i['choices'][0]['text'])
 
 ''' Tokens, by definition, are common sequences of characters in the output text. A good way
 to remember is that one token usually means about 4 letters of text for normal English words. This
