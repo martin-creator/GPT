@@ -18,6 +18,7 @@ next = openai.Completion.create(
     prompt="Once upon a time",
     max_tokens=100,
     n=2,
+    best_of=2,
 )
 
 print(next)
