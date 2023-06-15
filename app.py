@@ -21,8 +21,8 @@ by John Backus. The success of FORTRAN led to the formation of a committee of sc
 20 ntists to develop a universal computer language; the result of their effort was AL\
 GOL 58. Separately, John McCarthy of MIT developed Lisp, the first language with o\
 rigins in academia to be successful. With the success of these initial efforts, prog\
-ramming languages became an active topic of research in the 1960s and beyond\n\nKeyw\
-ords:"
+ramming languages became an active topic of research in the 1960s and beyond\n\nTwee\
+t with hashtags"
 
 tweet = openai.Completion.create(
     model="text-davinci-003",
