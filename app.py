@@ -17,8 +17,7 @@ next = openai.Completion.create(
     model="text-davinci-003",
     prompt="Once upon a time",
     max_tokens=15,
-    temperature=0,
-    logprobs=3,
+    temperature=2,
 )
 
 print(next)
@@ -27,3 +26,6 @@ print(next)
 to remember is that one token usually means about 4 letters of text for normal English words. This
 means that 100 tokens are about the same as 75 words. Grasping this will aid you in comprehending
 the pricing. Later in this book, we will delve deeper into pricing details'''
+
+# maximum logprobs is 5
+# maximum temperature is 2
