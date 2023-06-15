@@ -24,14 +24,15 @@ rigins in academia to be successful. With the success of these initial efforts, 
 ramming languages became an active topic of research in the 1960s and beyond\n\nTwee\
 t with hashtags"
 
-tweet = openai.Completion.create(
+my_song = openai.Completion.create(
     model="text-davinci-003",
-    prompt=prompt,
+    prompt="Write a rap song: \n\n",
     temperature=0.5,
-    max_tokens=300,
+    max_tokens=200,
 )
 
-print(tweet)
+print(my_song["choices"][0]["text"].strip())
+#strip removes the extra spaces
 
 # print("==== Frequency and Presence Penalty 2.0 ====")
 # print(next["choices"][0]["text"])
