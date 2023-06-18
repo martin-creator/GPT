@@ -1,5 +1,6 @@
 import os
 import openai
+from openai.embeddings_utils import get_embedding
 import click
 import pandas as pd
 import numpy as np
@@ -25,3 +26,10 @@ init_api()
 df = pd.read_csv('words.csv') # This line creates a pandas dataframe from the csv file
 
 # print(df.tail(5)) # This line prints the last 5 rows of the dataframe
+
+# print(get_embedding("Hello", engine="text-embedding-ada-002"))
+
+# get embedding for each word in the dataframe
+df['embedding'] = df['text'].apply(lambda x: get_embedding(x, engine="text-embedding-ada-002"))
+
+df.to_csv('embeddings.csv')
