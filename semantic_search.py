@@ -54,6 +54,9 @@ df["similarity"] = df["embedding"].apply(lambda x: cosine_similarity(x, search_t
 # sort the dataframe by the similarity score
 df = df.sort_values(by="similarity", ascending=False)
 
+# print the top 5 results
+print(df.head(5))
+
 print(df)
 
 
