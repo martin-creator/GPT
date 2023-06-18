@@ -59,5 +59,9 @@ print(df.head(5))
 
 print(df)
 
+# Detailed description of cosine similarity:
+# https://en.wikipedia.org/wiki/Cosine_similarity
+
+
 
 
