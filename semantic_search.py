@@ -34,17 +34,27 @@ df['embedding'] = df['Text'].apply(lambda x: get_embedding(x, engine="text-embed
 
 df.to_csv('embeddings.csv')
 
+# Convert the values in 'embedding' column to string representations
+df['embedding'] = df['embedding'].astype(str)
+
 # convert last column to numpy array
-df["embedding"] = df["embedding"].apply(eval).apply(np.array)
+df['embedding'] = df['embedding'].apply(eval).apply(np.array)
 
 # get the search term from the user
 user_search = input("Enter a search term: ")
 
 # get the embedding for the search term
-user_embedding = get_embedding(user_search, engine="text-embedding-ada-002")
+search_term_embedding = get_embedding(user_search, engine="text-embedding-ada-002")
+
+#print(search_term_embedding)
 
 # calculate the similarity between the search term and each word in the dataframe
-df["similarity"] = df["embedding"].apply(lambda x: cosine_similarity(x, user_embedding))
+df["similarity"] = df["embedding"].apply(lambda x: cosine_similarity(x, search_term_embedding))
+
+# sort the dataframe by the similarity score
+df = df.sort_values(by="similarity", ascending=False)
+
+print(df)
 
 
 
