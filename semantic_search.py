@@ -22,4 +22,6 @@ def init_api():
 init_api()
 
 
-df = pd.read_csv('words.csv')
+df = pd.read_csv('words.csv') # This line creates a pandas dataframe from the csv file
+
+# print(df.tail(5)) # This line prints the last 5 rows of the dataframe
