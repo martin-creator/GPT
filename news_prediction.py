@@ -1,9 +1,11 @@
 import os
 import openai
-import click
+import pandas as pd
+from openai.embeddings_utils import get_embedding
+from openai.embeddings_utils import cosine_similarity
 
-# develop a command-line tool that can assist us with Linux commands through conversation.
-# Click documentation: https://click.palletsprojects.com/en/8.1.x/
+
+# Predicting News Category Using Embedding
 
 
 def init_api():
@@ -18,3 +20,29 @@ def init_api():
 
 
 init_api()
+
+categories = [
+'U.S. NEWS',
+'COMEDY',
+'PARENTING',
+'WORLD NEWS',
+'CULTURE & ARTS',
+'TECH',
+'SPORTS'
+]
+
+
+# Define a function to classify sentence
+def classify_sentence(sentence):
+    # Get the embedding for the sentence
+    sentence_embedding = get_embedding(sentence, model="text-embedding-ada-002")
+    
+    # Caculate the similarity score between the sentence and each category
+    similarity_scores = {}
+    for category in categories:
+        category_embeddings = get_embedding(category, model="text-embedding-ada-002")
+        similarity_scores[category] = cosine_similarity(sentence_embedding, category_embeddings)
+        
+    # Return the category with the highest similarity score
+    return max(similarity_scores, key=similarity_scores.get)
+
