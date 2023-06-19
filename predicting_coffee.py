@@ -77,7 +77,9 @@ for review in df["preprocessed_review"]:
 
 # Get the embedding for the input coffee name
 try:
+    print("Getting embedding for input coffee name...")
     input_coffee_index = df[df['name'] == input_coffee_name].index[0]
+    print(input_coffee_index)
 except:
     print("Sorry, we dont have that coffee in our database. Please try again.")
     exit()
@@ -97,9 +99,25 @@ except:
 
 similarities = []
 input_review_embedding = review_embeddings[input_coffee_index]
+print(input_review_embedding)
 
 for review_embedding in review_embeddings:
     similarity = cosine_similarity(input_review_embedding, review_embedding)
     similarities.append(similarity)
 
-    
+print("The similarity scores are: ")
+print(similarities)
+
+
+# Get the indices of the most similar reviews (excluding the input review itself)
+most_similar_indices = np.argsort(similarities)[::-1][1:6]
+print("The most similar reviews are: ")
+print(most_similar_indices)
+
+
+# Get the names of the most similar coffees
+similar_coffee_names = df.iloc[most_similar_indices]["name"].tolist()
+
+# Print the names of the most similar coffees
+for coffee_name in similar_coffee_names:
+    print(coffee_name)
