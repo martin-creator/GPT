@@ -3,6 +3,7 @@ import openai
 import pandas as pd
 from openai.embeddings_utils import get_embedding
 from openai.embeddings_utils import cosine_similarity
+from sklearn.metrics import precision_score
 
 
 # Predicting News Category Using Embedding
@@ -65,3 +66,28 @@ raw for hosts",
 for sentence in sentences:
     print("{:50} category is {}".format(sentence, classify_sentence(sentence)))
     print()
+
+def evaluate_precision(categories):
+    # Load the dataset
+    df = pd.read_json("data/News_Category_Dataset_v3.json", lines=True).head(20)
+    y_true = []
+    y_pred = []
+
+    # classify each sentence
+    for _, row in df.iterrows():
+        true_catergory = row["category"]
+        predicted_category = classify_sentence(row["headline"])
+
+
+        # Append the true and predicted categories to the lists
+        y_true.append(true_catergory)
+        y_pred.append(predicted_category)
+
+    
+    # Calculate the precision score
+    return precision_score(y_true, y_pred, average='micro', labels=categories)
+
+
+precision_evaluated = evaluate_precision(categories)
+print("------------------------------ Evaluation ------------------------------")
+print("Precision evaluated: {:.2f}".format(precision_evaluated))
