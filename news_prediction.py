@@ -21,27 +21,23 @@ def init_api():
 
 init_api()
 
-categories = [
-    'U.S. NEWS',
-    'COMEDY',
-    'PARENTING',
-    'WORLD NEWS',
-    'CULTURE & ARTS',
-    'TECH',
-    'SPORTS'
-]
+categories = ['POLITICS', 'WELLNESS', 'ENTERTAINMENT', 'TRAVEL', 'STYLE & BEAUTY', 'PARENTING', 'HEALTHY LIVING',
+              'QUEER VOICES', 'FOOD & DRINK', 'BUSINESS', 'COMEDY', 'SPORTS', 'BLACK VOICES', 'HOME & LIVING', 'PARENTS']
 
 
 # Define a function to classify sentence
 def classify_sentence(sentence):
     # Get the embedding for the sentence
-    sentence_embedding = get_embedding(sentence, engine="text-embedding-ada-002")
+    sentence_embedding = get_embedding(
+        sentence, engine="text-embedding-ada-002")
 
     # Calculate the similarity score between the sentence and each category
     similarity_scores = {}
     for category in categories:
-        category_embedding = get_embedding(category, engine="text-embedding-ada-002")
-        similarity_scores[category] = cosine_similarity(sentence_embedding, category_embedding)
+        category_embedding = get_embedding(
+            category, engine="text-embedding-ada-002")
+        similarity_scores[category] = cosine_similarity(
+            sentence_embedding, category_embedding)
 
     # Return the category with the highest similarity score
     return max(similarity_scores, key=similarity_scores.get)
@@ -69,4 +65,3 @@ raw for hosts",
 for sentence in sentences:
     print("{:50} category is {}".format(sentence, classify_sentence(sentence)))
     print()
-
