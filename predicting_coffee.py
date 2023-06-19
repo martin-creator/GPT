@@ -78,7 +78,8 @@ for review in df["preprocessed_review"]:
 # Get the embedding for the input coffee name
 try:
     print("Getting embedding for input coffee name...")
-    input_coffee_index = df[df['name'] == input_coffee_name].index[0]
+    # input_coffee_index = df[df['name'] == input_coffee_name].index[0]
+    input_coffee_index = df[df['name'].str.contains(input_coffee_name, case=False)].index[0]
     print(input_coffee_index)
 except:
     print("Sorry, we dont have that coffee in our database. Please try again.")
