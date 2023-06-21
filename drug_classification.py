@@ -16,7 +16,7 @@ reason_dict = { reason: i for i , reason in enumerate(reasons) }
 df["Drug_Name"] = "Drug: " + df["Drug_Name"] + "\n" + "Malady:"
 
 # concatenate the Reason and Description columns
-df["Reason"] = " " + df["Reason"].apply(lambda x: str(reason_dict[x]))
+df["Reason"] = " " + df["Reason"].apply(lambda x: "" + str(reason_dict[x]))
 
 # drop the Reason column
 df.drop(["Description"], axis=1, inplace=True)
@@ -28,5 +28,5 @@ df.rename(columns={"Drug_Name": "prompt", "Reason": "completion"}, inplace=True)
 jsonl = df.to_json(orient="records", indent=0, lines=True)
 
 # write the jsonl to a file
-with open("drug_malady.jsonl", "w") as f:
+with open("drug_malady_datas.jsonl", "w") as f:
     f.write(jsonl)
