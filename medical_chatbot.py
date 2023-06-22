@@ -49,3 +49,39 @@ def regular_discussion(prompt):
         max_tokens=100,
         stop=["\n", " Human:", " AI:"],
     )
+
+
+def get_malady_name(drug_name):
+    """
+    params: drug_name - a string
+    Returns a malady name that corresponds to a drug name from the fine-tuned model.
+    The function will call get_malady_description() to get a description of the mala\
+    dy.
+    """
+    # Configure the model ID. Change this to your model ID.
+    model = "ada:ft-learninggpt:drug-malady-data-2023-02-21-20-36-07"
+    class_map = {
+    0: "Acne",
+    1: "Adhd",
+    2: "Allergies",
+    # ...
+    }
+
+    # Returns a drug class for each drug
+    prompt = "Drug: {}\nMalady:".format(drug_name)
+
+    response = openai.Completion.create(
+    model=model,
+    prompt= prompt,
+    temperature=1,
+    max_tokens=1,
+    )
+
+    response = response.choices[0].text.strip()
+
+    try:
+        malady = class_map[int(response)]
+        print("AI: This drug used for {}.".format(malady))
+        print(get_malady_description(malady))
+    except:
+        print("AI: I dont know what '" + drug_name + "' is used for.")
