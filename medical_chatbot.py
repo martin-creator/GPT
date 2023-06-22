@@ -85,3 +85,36 @@ def get_malady_name(drug_name):
         print(get_malady_description(malady))
     except:
         print("AI: I dont know what '" + drug_name + "' is used for.")
+
+
+def get_malady_description(malady):
+    """
+    params: malady - a string
+    Get a description of a malady from the API using Davinci.
+    """
+
+    prompt = """
+    The following is a conversation with an AI assistant. The assistant is helpful, \
+    creative, clever, and very friendly.
+    The assistant does not provide medical advice. It only defines a malady, a disea\
+    se, or a condition.
+    If the assistant does not know the answer to a question, it will ask to rephrase\
+    it.
+
+    Q: What is {}?
+    A:""".format(malady)
+
+    # Get the response from the API
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt,
+        max_tokens=100,
+        stop=["\n", " Q", " A:"],
+    )
+
+    return response.choices[0].text.strip()
+
+
+    if __name__ == "__main__":
+        while True:
+            regular_discussion(input("Human: "))
