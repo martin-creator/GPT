@@ -1,6 +1,21 @@
 # Advanced Fine Tuning by creating a medical chatbot
 
+import os
 import openai
+
+def init_api():
+    ''' Load API key from .env file'''
+    with open(".env") as env:
+        for line in env:
+            key, value = line.strip().split("=")
+            os.environ[key] = value
+
+    openai.api_key = os.environ["API_KEY"]
+    openai.organization = os.environ["ORG_ID"]
+
+
+init_api()
+
 
 def regular_discussion(prompt):
     """
@@ -9,12 +24,10 @@ def regular_discussion(prompt):
     If the user asks about a drug, the function will call get_malady_name().
     """
     prompt = """
-    The following is a conversation with an AI assistant. The assistant is helpful, \
+    The following is a conversation with an AI assistant. The assistant is helpful,
     creative, clever, very friendly and careful with Human's health topics
-    The AI assistant is not a doctor and does not diagnose or treat medical conditio\
-    ns to Human
-    The AI assistant is not a pharmacist and does not dispense or recommend medicati\
-    ons to Human
+    The AI assistant is not a doctor and does not diagnose or treat medical conditions to Human
+    The AI assistant is not a pharmacist and does not dispense or recommend medications to Human
     The AI assistant does not provide medical advice to Human
     The AI assistant does not provide medical and health diagnosis to Human
     The AI assistant does not provide medical treatment to Human
@@ -22,19 +35,15 @@ def regular_discussion(prompt):
     If Human writes the name of a drug the assistant will reply with "######".
 
     Human: Hi
-    AI: Hello Human. How are you? I'll be glad to help. Give me the name of a drug a\
-    nd I'll tell you what it's used for.
+    AI: Hello Human. How are you? I'll be glad to help. Give me the name of a drug and I'll tell you what it's used for.
     Human: Vitibex
     AI: ######
     Human: I'm fine. How are you?
-    AI: I am fine. Thank you for asking. I'll be glad to help. Give me the name of a\
-    drug and I'll tell you what it's used for.
+    AI: I am fine. Thank you for asking. I'll be glad to help. Give me the name of a drug and I'll tell you what it's used for.
     Human: What is Chaos Engineering?
-    AI: I'm sorry, I am not qualified to do that. I'm only programmed to answer ques\
-    tions about drugs. Give me the name of a drug and I'll tell you what it's used for.
+    AI: I'm sorry, I am not qualified to do that. I'm only programmed to answer questions about drugs. Give me the name of a drug and I'll tell you what it's used for.
     Human: Where is Carthage?
-    AI: I'm sorry, I am not qualified to do that. I'm only programmed to answer ques\
-    tions about drugs. Give me the name of a drug and I'll tell you what it's used for.
+    AI: I'm sorry, I am not qualified to do that. I'm only programmed to answer questions about drugs. Give me the name of a drug and I'll tell you what it's used for.
     Human: What is Maxcet 5mg Tablet 10'S?
     AI: ######
     Human: What is Axepta?
@@ -50,6 +59,12 @@ def regular_discussion(prompt):
         stop=["\n", " Human:", " AI:"],
     )
 
+    if response.choices[0].text.strip() == "######":
+        get_malady_name(prompt)
+    else:
+        final_response = response.choices[0].text.strip() + "\n"
+        print("AI: {}".format(final_response))
+
 
 def get_malady_name(drug_name):
     """
@@ -59,7 +74,7 @@ def get_malady_name(drug_name):
     dy.
     """
     # Configure the model ID. Change this to your model ID.
-    model = "ada:ft-learninggpt:drug-malady-data-2023-02-21-20-36-07"
+    model = "curie:ft-personal-2023-06-21-19-07-39"
     class_map = {
     0: "Acne",
     1: "Adhd",
@@ -115,6 +130,8 @@ def get_malady_description(malady):
     return response.choices[0].text.strip()
 
 
-    if __name__ == "__main__":
-        while True:
-            regular_discussion(input("Human: "))
+    
+    
+if __name__ == "__main__":
+    while True:
+        regular_discussion(input("Human: "))
