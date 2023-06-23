@@ -174,5 +174,5 @@ poetry.toml
 pyrightconfig.json
 
 myenv
-
+aiweb
 # End of https://www.toptal.com/developers/gitignore/api/python
