@@ -60,6 +60,8 @@ def regular_discussion(prompt):
     )
 
     if response.choices[0].text.strip() == "######":
+        # print("-----------------Prompt Drug Name-----------------")
+        # print(prompt)
         get_malady_name(prompt)
     else:
         final_response = response.choices[0].text.strip() + "\n"
@@ -99,6 +101,7 @@ def get_malady_name(drug_name):
         print("AI: This drug used for {}.".format(malady))
         print(get_malady_description(malady))
     except:
+        print("-----------------Prompt Malady Name-----------------")
         print("AI: I dont know what '" + drug_name + "' is used for.")
 
 

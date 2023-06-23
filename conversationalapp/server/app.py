@@ -77,8 +77,8 @@ def regular_discussion(prompt):
         # print(prompt)
         get_malady_name(prompt)
     else:
-        final_response = response.choices[0].text.strip() + "\n"
-        print("AI: {}".format(final_response))
+        final_response = response.choices[0].text.strip() + "\\n"
+        return("{}".format(final_response))
 
 
 def get_malady_name(drug_name):
