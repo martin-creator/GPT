@@ -77,20 +77,145 @@ def init_api():
 # Then we retrieve the last 2 and add them to the user prompt as a context. Instead of a text file, you
 # can use a PostgreSQL database, a Redis database, or whatever you want.
 
+# def save_history_to_file(history):
+#     with open("history.txt", "w+") as file:
+#         file.write(history)
+
+# def load_history_from_file():
+#     with open("history.txt", "r") as file:
+#         return file.read()
+
+# def get_revelant_history(history):
+#     history_list = history.split(seperator)
+#     if len(history_list) > 2:
+#         return seperator.join(history_list[-2:])
+#     else:
+#         return history
+
+
+# init_api()
+  
+
+# initial_prompt = """You: Hi there!
+#     You: Hello!
+#     AI: How are you?
+#     You: {}
+#     AI: """
+
+# history = ""
+# seperator = "#####"
+# relevant_history = ""
+
+# while True:
+#     prompt = input("You: ")
+#     relevant_history = get_revelant_history(load_history_from_file())
+
+#     response = openai.Completion.create(
+#         engine="text-davinci-003",
+#         prompt=initial_prompt.format(relevant_history + prompt),
+#         temperature=1,
+#         max_tokens=100,
+#         stop=[" You", " AI:"]
+#     )
+
+#     response_text = response["choices"][0]["text"]
+#     history += "\nYou: " + prompt + "\n" + "AI: " + response_text + "\n" + seperator
+#     save_history_to_file(history)
+
+
+#     print("AI:", response_text)
+
+
+# Selective Context
+
+# Last in First out memory may struggle when a discussion becomes very
+# complex, and the user needs to switch back and forth between different contexts. In such cases,
+# the approach may not be able to provide the required context to the user as it only stores the most
+# recent prompts. This can lead to confusion and frustration for the user, which is not ideal for humanfriendly interactions.
+
+# The solution suggested in this part will work as follows:
+#     • An initial prompt is saved to a text file
+#     • The user enters a prompt
+#     • The program creates embeddings for all interactions in the file
+#     • The program creates embeddings for the user’s prompt
+#     • The program calculates the cosine similarity between the user’s prompt and all interactions in
+#     the file
+#     • The program sorts the file by the cosine similarity
+#     • The best n interactions are read from the file and sent with the prompt to the user
+
 def save_history_to_file(history):
+    """
+    Save history to file
+    """
     with open("history.txt", "w+") as file:
         file.write(history)
 
 def load_history_from_file():
+    """
+    Load history from file
+    """
     with open("history.txt", "r") as file:
         return file.read()
 
-def get_revelant_history(history):
-    history_list = history.split(seperator)
-    if len(history_list) > 2:
-        return seperator.join(history_list[-2:])
-    else:
-        return history
+def cos_sim(a, b):
+    """
+    Calculate cosine similarity between two strings
+    Used to compare the similarity between the user input and a segments in the history
+    """
+
+    a = nlp(a)
+    a_without_stopwords = nlp(" ".join([t.text for t in a if not t.is_stop]))
+    b = nlp(b)
+    b_without_stopwords = nlp(" ".join([t.text for t in b if not t.is_stop]))
+
+    return a_without_stopwords.similarity(b_without_stopwords)
+
+
+def sort_history(history, user_input):
+    """
+    Sort the history of interactions based on cosine similarity between the user input and the segments in the history
+    History is a string of segments separated by separator
+    """
+    segments = history.split(seperator)
+    similarities = []
+
+    for segment in segments:
+        # get cosine similarity between user input and segment
+        similarity = cos_sim(segment, user_input)
+        similarities.append(similarity)
+
+    sorted_similarities = np.argsort(similarities)
+    sorted_history = ""
+
+    for i in range(1, len(segments)):
+        sorted_history += segments[sorted_similarities[i]] + seperator
+    save_history_to_file(sorted_history)
+
+    # 1. Split the history into segments: The function first splits the input history string into segments
+    # based on the specified separator (in our example, we will use ##### which we will declare later).
+    # This creates a list of segments representing each interaction in history.
+    # 2. Compute the cosine similarity: For each segment, the function computes the cosine similarity
+    # between the user’s input and the segment using the cos_sim function. The cosine similarity
+    # measures the similarity between two vectors as we have seen in the previous chapters.
+    # Although we could have used OpenAI embedding, our goal is to reduce computing costs by
+    # performing certain tasks locally instead of relying on the API.
+    # 3. Sort the similarities: The function sorts the similarities in ascending order using np.argsort,
+    # which returns the indices of the sorted similarities in the order of their values. This creates a
+    # list of indices representing the segments sorted by their similarity to the user’s input.
+    # 4. Reconstruct the sorted history: We iterate over the sorted indices in reverse order and
+    # concatenate the corresponding segments together into a new string. This creates a new, sorted
+    # history string in which the most similar interactions to the user’s input appear first.
+    # 5. Save the sorted history: Finally, we save the sorted history to a file using the save_history_-
+    # to_file function.
+
+
+def get_latest_n_from_history(history, n):
+    """
+    Get the latest n segments from history
+    History is a string of segments separated by separator
+    """
+    segments = history.split(seperator)
+    return seperator.join(segments[-n:])
 
 
 init_api()
@@ -101,29 +226,6 @@ initial_prompt = """You: Hi there!
     AI: How are you?
     You: {}
     AI: """
-
-history = ""
-seperator = "#####"
-relevant_history = ""
-
-while True:
-    prompt = input("You: ")
-    relevant_history = get_revelant_history(load_history_from_file())
-
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=initial_prompt.format(relevant_history + prompt),
-        temperature=1,
-        max_tokens=100,
-        stop=[" You", " AI:"]
-    )
-
-    response_text = response["choices"][0]["text"]
-    history += "\nYou: " + prompt + "\n" + "AI: " + response_text + "\n" + seperator
-    save_history_to_file(history)
-
-
-    print("AI:", response_text)
 
 
 
