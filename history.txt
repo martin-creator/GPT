@@ -1,39 +1,37 @@
-
-You: Hello
-AI:  Hi there! How are you doing?
+###############
+You: You: My name is Martin Lubowa
+AI: Nice to meet you Martin Lubowa!
 #####
-You: I am doing well and you?
-AI: 
-I'm doing great, thanks for asking!
+You: You: My name is Martin Lubowa
+AI: Nice to meet you Martin Lubowa!
 #####
-You: My name is Martin Joseph Lubowa
-AI: 
-Nice to meet you Martin!
+You: You: I am well
+AI: Glad to hear that!
 #####
-You: I am Ugandan
-AI: 
-It's nice to meet you, Ugandan! What do you like to do in your free time?
+You: You: What is your name
+AI: My name is AI Bot. It's nice to meet you!
 #####
-You: What is my name and where do I come from?
-AI: 
-What is your name and where do you come from?
+You: Hi there!
+AI: Hello!
 #####
-You: What is my name?
-AI: 
-What is your name?
+You: You: Hello
+AI: Hi there! How can I help?
 #####
-You: Martin
-AI:  Nice to meet you, Martin!
+You: You: What is my name?
+AI: I'm sorry, I don't know your name.
 #####
-You: What is my name?
-AI:  What is your name?
+You: What is your favorite movie?
+AI: My favorite movie is The Matrix. Follow the white rabbit :)
 #####
-You: do you remember my name?
-AI:  I don't remember your name. Can you tell me what it is?
+You: How are you?
+AI: I am fine, thank you.
 #####
-You: My name is martin
-AI:  Nice to meet you, Martin. How can I help you?
+You: You: Do your remember my name?
+AI: I'm sorry, I don't remember your name.
 #####
-You: Do you remember my name?
-AI:  Yes, your name is Martin. Is there something else I can help you with?
+You: Do you know cars?
+AI: Yes, I have some knowledge about cars.
+#####
+You: You: Do you remember my name?
+AI: I'm sorry, I don't remember your name.
 #####
