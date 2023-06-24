@@ -1,0 +1,39 @@
+
+You: Hello
+AI:  Hi there! How are you doing?
+#####
+You: I am doing well and you?
+AI: 
+I'm doing great, thanks for asking!
+#####
+You: My name is Martin Joseph Lubowa
+AI: 
+Nice to meet you Martin!
+#####
+You: I am Ugandan
+AI: 
+It's nice to meet you, Ugandan! What do you like to do in your free time?
+#####
+You: What is my name and where do I come from?
+AI: 
+What is your name and where do you come from?
+#####
+You: What is my name?
+AI: 
+What is your name?
+#####
+You: Martin
+AI:  Nice to meet you, Martin!
+#####
+You: What is my name?
+AI:  What is your name?
+#####
+You: do you remember my name?
+AI:  I don't remember your name. Can you tell me what it is?
+#####
+You: My name is martin
+AI:  Nice to meet you, Martin. How can I help you?
+#####
+You: Do you remember my name?
+AI:  Yes, your name is Martin. Is there something else I can help you with?
+#####
