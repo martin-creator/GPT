@@ -25,6 +25,25 @@ from gtts import gTTS
 import openai
 import click
 
+import os
+import openai
+import click
+
+# develop a command-line tool that can assist us with Linux commands through conversation.
+# Click documentation: https://click.palletsprojects.com/en/8.1.x/
+
+
+def init_api():
+    ''' Load API key from .env file'''
+    with open(".env") as env:
+        for line in env:
+            key, value = line.strip().split("=")
+            os.environ[key] = value
+
+    openai.api_key = os.environ["API_KEY"]
+    openai.organization = os.environ["ORG_ID"]
+
+
 
 def record_audio(audio_queue, energy, pause, dynamic_energy):
     """
@@ -76,7 +95,7 @@ def transcribe_forever(audio_queue, result_queue, audio_model, english, wake_wor
         predicted_text = result["text"]
 
         if predicted_text.strip().lower().startswith(wake_word.strip().lower()):
-            pattern = re.comile(re.escape(wake_word), re.IGNORECASE)
+            pattern = re.compile(re.escape(wake_word), re.IGNORECASE)
             predicted_text = pattern.sub("", predicted_text).strip()
             punc = ''' !()-[]{};:'"\,<>./?@#$%^&*_~ '''
             predicted_text.translate({ord(char): None for char in punc})
@@ -93,14 +112,14 @@ def transcribe_forever(audio_queue, result_queue, audio_model, english, wake_wor
 def reply(result_queue):
     while True:
         result = result_queue.get()
-        data.openai.Completion.create(
+        data = openai.Completion.create(
             model="text-davinci-002",
             prompt=result,
             temperature=0,
             max_tokens=100,
         )
 
-        answer = result["choices"][0]["text"]
+        answer = data["choices"][0]["text"]
         mp3_obj = gTTS(text=answer, lang="en", slow=False)
         mp3_obj.save("reply.mp3")
         reply_audio = AudioSegment.from_mp3("reply.mp3")
@@ -114,12 +133,13 @@ def reply(result_queue):
 
 @click.command()
 @click.option("--model", default="base", help="Model to use", type=click.Choice(["tiny", "base", "medium", "large"]))
-@click.option("--english", default=False, help="Whether to use English model", is_false=True, type=bool)
+@click.option("--english", default=False, help="Whether to use English model", is_flag=True, type=bool)
 @click.option("--energy", default=300, help="Energy level for the mic to detact", type=int)
 @click.option("--pause", default=0.8, help="Pause time before entry ends", type=float)
 @click.option("--dynamic_energy", default=False, is_flag=True, help="Flag to enable dynamic energy", type=bool)
 @click.option("--wake_word", default="hey computer", help="Wake word to listen for", type=str)
 @click.option("--verbose", default=False, is_flag=True, help="Whether to print the verbose output", type=bool)
+
 
 def main(model, english, energy, pause, dynamic_energy, wake_word, verbose):
     # there are no english models for large
@@ -136,3 +156,8 @@ def main(model, english, energy, pause, dynamic_energy, wake_word, verbose):
 
     while True:
         print(result_queue.get())
+
+
+# Main entry point
+init_api()
+main()
