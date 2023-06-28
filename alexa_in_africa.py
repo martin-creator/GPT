@@ -11,6 +11,21 @@
 # Recording the audio
 # We will use the Python SpeechRecognition library to record the audio
 
+from pydub import AudioSegment
+from pydub.playback import play
+import speech_recognition as sr
+import whisper
+import queue
+import os
+import threading
+import torch
+import numpy as np
+import re
+from gtts import gTTS
+import openai
+import click
+
+
 def record_audio(audio_queue, energy, pause, dynamic_energy):
     """
         • audio_queue: a queue object where the recorded audio will be saved.
@@ -47,6 +62,10 @@ def record_audio(audio_queue, energy, pause, dynamic_energy):
 # OpenAI Whisper automatically transcribes the question into a text.
 
 def transcribe_forever(audio_queue, result_queue, audio_model, english, wake_word, verbose):
+    """
+    audio_queue, which contains the audio data to be transcribed
+    result_queue, which is used to store the transcribed text
+    """
     while True:
         audio_data = audio_queue.get()
         if english:
@@ -67,3 +86,53 @@ def transcribe_forever(audio_queue, result_queue, audio_model, english, wake_wor
         else:
             if verbose:
                 print("You did not say the wake word .. Ignoring")
+
+
+# Generating the answer
+
+def reply(result_queue):
+    while True:
+        result = result_queue.get()
+        data.openai.Completion.create(
+            model="text-davinci-002",
+            prompt=result,
+            temperature=0,
+            max_tokens=100,
+        )
+
+        answer = result["choices"][0]["text"]
+        mp3_obj = gTTS(text=answer, lang="en", slow=False)
+        mp3_obj.save("reply.mp3")
+        reply_audio = AudioSegment.from_mp3("reply.mp3")
+        play(reply_audio)
+        os.remove("reply.mp3")
+
+
+
+# Main function 
+# read from arguments
+
+@click.command()
+@click.option("--model", default="base", help="Model to use", type=click.Choice(["tiny", "base", "medium", "large"]))
+@click.option("--english", default=False, help="Whether to use English model", is_false=True, type=bool)
+@click.option("--energy", default=300, help="Energy level for the mic to detact", type=int)
+@click.option("--pause", default=0.8, help="Pause time before entry ends", type=float)
+@click.option("--dynamic_energy", default=False, is_flag=True, help="Flag to enable dynamic energy", type=bool)
+@click.option("--wake_word", default="hey computer", help="Wake word to listen for", type=str)
+@click.option("--verbose", default=False, is_flag=True, help="Whether to print the verbose output", type=bool)
+
+def main(model, english, energy, pause, dynamic_energy, wake_word, verbose):
+    # there are no english models for large
+    if model != "large" and english:
+        model = model + ".en"
+    
+    audio_model = whisper.load_model(model)
+    audio_queue = queue.Queue()
+    result_queue = queue.Queue()
+    threading.Thread(target=record_audio, args=(audio_queue, energy, pause, dynamic_energy)).start()
+    threading.Thread(target=transcribe_forever, args=(audio_queue, result_queue, audio_model, english, wake_word, verbose)).start()
+    threading.Thread(target=reply, args=(result_queue,)).start()
+
+
+    while True:
+        print(result_queue.get())
