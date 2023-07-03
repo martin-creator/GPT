@@ -15,7 +15,7 @@ model, preprocess = clip.load('ViT-B/32', device=device)
 
 # load image
 
-image = PIL.Image.open('/resources/ASTRONAUTS.jpg')
+image = PIL.Image.open('./resources/ASTRONAUTS.jpg')
 
 # preprocess image
 image_input = preprocess(image).unsqueeze(0).to(device)
