@@ -1,0 +1,3486 @@
+repo_name: martin-creator/GPT
+report_id: cdebf7aff7cd4ce5641c9db06d67a74b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T08:04:14+00:00'
+requested_by: martin-creator
+provider: github
+branch: master
+detected_tools_count: 232
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/martin-creator/GPT
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/martin-creator/GPT
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.20.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: Cloud Firestore
+  description: NoSQL database built for global apps
+  website_url: https://firebase.google.com/products/firestore/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/7696/Untitled-5.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: '4.0'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 4.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 1.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/babel.config.js
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/martin-creator/GPT
+  detection_source: Repo Metadata
+- name: Hyper
+  description: On-Demand Container, Per-Second Billing
+  website_url: https://hyper.sh/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Containers as a Service
+  image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.12.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Zope
+  description: 'A free and open source web application server written in the object-oriented
+    programming language “Python” '
+  website_url: https://www.zope.org
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/6969/zopeHIres_400x400.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: IPython
+  description: A command shell for interactive computing in multiple programming languages
+  website_url: http://ipython.org/index.html
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Shells
+  image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.22.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/martin-creator/GPT
+  detection_source: Repo Metadata
+- name: SciPy
+  description: Scientific Computing Tools for Python
+  website_url: http://www.scipy.org
+  version: 1.10.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/martin-creator/GPT
+  detection_source: Repo Metadata
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
+- name: Automat
+  description: Self-service finite-state machines for the programmer on the go
+  package_url: https://pypi.org/project/Automat
+  version: 22.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20704/default_e265a407e12a13d561d608e21516e6f3e1949e41.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: CacheControl
+  description: Httplib2 caching for requests
+  package_url: https://pypi.org/project/CacheControl
+  version: 0.12.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19978/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Django
+  description: A high-level Python Web framework that encourages rapid development
+    and clean
+  package_url: https://pypi.org/project/Django
+  version: 3.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Django
+    cve_id: CVE-2021-35042
+    cve_url: https://github.com/advisories/GHSA-xpfp-f569-q3p2
+    detected_date: Sep 23
+    severity: critical
+    first_patched: 3.1.13
+  - name: Potential bypass of an upstream access control based on URL paths in Django
+    cve_id: CVE-2021-44420
+    cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
+    detected_date: Dec 14
+    severity: high
+    first_patched: 3.1.14
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.9
+  - name: Directory Traversal in Django
+    cve_id: CVE-2021-28658
+    cve_url: https://github.com/advisories/GHSA-xgxc-v2qg-chmh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.8
+  - name: Header injection possible in Django
+    cve_id: CVE-2021-32052
+    cve_url: https://github.com/advisories/GHSA-qm57-vhq3-3fwf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.10
+- name: Fabric3
+  description: Fabric is a simple
+  package_url: https://pypi.org/project/Fabric3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-Bootstrap
+  description: An extension that includes Bootstrap in your project
+  package_url: https://pypi.org/project/Flask-Bootstrap
+  version: 3.3.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20722/default_cfdf58b2e88fe2b69ed29f551c7b77cfb57fccd2.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-Cors
+  description: A Flask extension adding a decorator for CORS support
+  package_url: https://pypi.org/project/Flask-Cors
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19977/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Flask-Cors Directory Traversal vulnerability
+    cve_id: CVE-2020-25032
+    cve_url: https://github.com/advisories/GHSA-xc3p-ff3m-f46v
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.0.9
+- name: Flask-Login
+  description: User session management for Flask
+  package_url: https://pypi.org/project/Flask-Login
+  version: 0.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20091/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-Migrate
+  description: SQLAlchemy database migrations for Flask applications using Alembic
+  package_url: https://pypi.org/project/Flask-Migrate
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20329/default_cf6b540611cb9b9b5d016a661f54f50ad3400f1a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-PyMongo
+  description: PyMongo support for Flask applications
+  package_url: https://pypi.org/project/Flask-PyMongo
+  version: 2.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-RESTful
+  description: Simple framework for creating REST APIs
+  package_url: https://pypi.org/project/Flask-RESTful
+  version: 0.3.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20034/default_a3692729f5b4ca7eb94218522ed4260bba4a5c15.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: 2.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Flask-WTF
+  description: Simple integration of Flask and WTForms
+  package_url: https://pypi.org/project/Flask-WTF
+  version: 0.14.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20060/default_eed7014d799b4e750aea7c37ab970b4b62c0cf42.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Mako
+  description: A super-fast templating language that borrows the best ideas from the
+    existing templating languages
+  package_url: https://pypi.org/project/Mako
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19969/default_1c8812e05cf754e8f654b8d86b3f025827f5bfb6.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PyNaCl
+  description: Python binding to the Networking and Cryptography
+  package_url: https://pypi.org/project/PyNaCl
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20262/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  version: 2.15.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Send2Trash
+  description: Send file to trash natively under Mac OS X
+  package_url: https://pypi.org/project/Send2Trash
+  version: 1.8.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20395/default_5d8ceeeb4f37c8c5984e00abce1dab5113e27b56.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Twisted
+  description: An asynchronous networking framework written in Python
+  package_url: https://pypi.org/project/Twisted
+  version: 22.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19917/default_0bcdf4801fb769eac80e668560a1012afd8a336d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: WTForms
+  description: A flexible forms validation and rendering library for Python web development
+  package_url: https://pypi.org/project/WTForms
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20615/default_7382161db21ae3cf11739d4242ed42a7278e7489.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 2.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.8.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp
+      HTTP request parser
+    cve_id: CVE-2023-37276
+    cve_url: https://github.com/advisories/GHSA-45c4-8wx5-qw6w
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 3.8.5
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+- name: aioredis
+  description: Asyncio
+  package_url: https://pypi.org/project/aioredis
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20242/default_25418c262a2428f30b41a859b534faa2f4a93ce4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: alembic
+  description: A database migration tool for SQLAlchemy
+  package_url: https://pypi.org/project/alembic
+  version: 1.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19961/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: aniso8601
+  description: A library for parsing ISO 8601 strings
+  package_url: https://pypi.org/project/aniso8601
+  version: 6.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20255/default_49d350d2ae446ec5a00ebd45eeeaa0c300409a71.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: appdirs
+  description: A small Python module for determining appropriate platform-specific
+    dirs, e.g
+  package_url: https://pypi.org/project/appdirs
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19878/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: argon2-cffi
+  description: The secure Argon2 password hashing algorithm
+  package_url: https://pypi.org/project/argon2-cffi
+  version: 21.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: arrow
+  description: Better dates &amp; times for Python
+  package_url: https://pypi.org/project/arrow
+  version: 1.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19891/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: asgiref
+  description: ASGI specs, helper code, and adapters
+  package_url: https://pypi.org/project/asgiref
+  version: 3.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20739/default_88a4948f616ae7ccb7210803d2bd72b72851b6e9.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: astroid
+  description: An abstract syntax tree for Python with inference support
+  package_url: https://pypi.org/project/astroid
+  version: 2.9.3
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20125/default_63b818b0ea63c702db9131c12dd2fd2fad35ca3b.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: asttokens
+  description: Annotate AST trees with source code positions
+  package_url: https://pypi.org/project/asttokens
+  version: 2.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20745/default_c90b3e514872112e4562f3131a3c6b68b0d05009.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: 22.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: autobahn
+  description: WebSocket client &amp; server library, WAMP real-time framework
+  package_url: https://pypi.org/project/autobahn
+  version: 22.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20100/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: autopep8
+  description: A tool that automatically formats Python code to conform to the PEP
+    8 style guide
+  package_url: https://pypi.org/project/autopep8
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20353/default_4fff53bc8c15a9ea5decdac96fdba9b8874b07ce.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: backcall
+  description: Specifications for callback functions passed in to an API
+  package_url: https://pypi.org/project/backcall
+  version: 0.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 3.1.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: bleach
+  description: An easy safelist-based HTML-sanitizing tool
+  package_url: https://pypi.org/project/bleach
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20045/default_b0b684477aefb2da4c92a4bafd91d26e16511cd1.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: cachetools
+  description: Extensible memoizing collections and decorators
+  package_url: https://pypi.org/project/cachetools
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2021.10.8
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 1.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: channels
+  description: Brings async, event-driven capabilities to Django
+  package_url: https://pypi.org/project/channels
+  version: 3.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20360/default_880acfa1f90ccca9f32847b7078d3e07c81e2d48.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: channels-redis
+  description: Redis-backed ASGI channel layer implementation
+  package_url: https://pypi.org/project/channels-redis
+  version: 3.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  version: 3.0.4
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.0.12
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: constantly
+  description: Symbolic constants in Python
+  package_url: https://pypi.org/project/constantly
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  version: 38.0.1
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: CVE-2023-0286
+    cve_url: https://github.com/advisories/GHSA-x4qr-2fvf-3mr5
+    detected_date: Feb 9
+    severity: high
+    first_patched: 39.0.1
+  - name: Cipher.update_into can corrupt memory if passed an immutable python object
+      as the outbuf
+    cve_id: CVE-2023-23931
+    cve_url: https://github.com/advisories/GHSA-w7pp-m8wf-vj6r
+    detected_date: Feb 8
+    severity: moderate
+    first_patched: 39.0.1
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-39hc-v87j-747x
+    detected_date: Nov 3
+    severity: moderate
+    first_patched: 38.0.3
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
+  - name: pyca/cryptography's wheels include vulnerable OpenSSL
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
+    detected_date: Aug 2
+    severity: low
+    first_patched: 41.0.3
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v8gr-m533-ghj9
+    detected_date: Sep 22
+    severity: low
+    first_patched: 41.0.4
+  - name: Vulnerable OpenSSL included in cryptography wheels
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5cpq-8wj7-hf2v
+    detected_date: Jun 3
+    severity: low
+    first_patched: 41.0.0
+- name: cymem
+  description: Manage calls to calloc/free through Cython
+  package_url: https://pypi.org/project/cymem
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: daphne
+  description: Django ASGI
+  package_url: https://pypi.org/project/daphne
+  version: 3.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 4.4.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: defusedxml
+  description: XML bomb protection for Python stdlib modules
+  package_url: https://pypi.org/project/defusedxml
+  version: 0.7.1
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: dill
+  description: Serialize all of python
+  package_url: https://pypi.org/project/dill
+  version: 0.3.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19972/default_735d20726524f3a2b12f956af25bde52f942f85a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: distlib
+  description: Distribution utilities
+  package_url: https://pypi.org/project/distlib
+  version: 0.3.6
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20388/default_dbae17f97e8212cfa7ac5c2981eb06a9bf0f7b40.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/project/dj-database-url
+  version: 0.5.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: django-bootstrap4
+  description: Bootstrap support for Django projects
+  package_url: https://pypi.org/project/django-bootstrap4
+  version: 2.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: django-environ
+  description: Django-environ allows you to utilize 12factor inspired environment
+    variables to configure your Django application
+  package_url: https://pypi.org/project/django-environ
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20684/default_c0915e70f83a4ff795fa420880db8a76377fceac.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: djangorestframework
+  description: Web APIs for Django, made easy
+  package_url: https://pypi.org/project/djangorestframework
+  version: 3.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: docopt
+  description: Pythonic argument parser, that will make you smile
+  package_url: https://pypi.org/project/docopt
+  version: 0.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19916/default_0bcdf4801fb769eac80e668560a1012afd8a336d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: dominate
+  description: Dominate is a Python library for creating and manipulating HTML documents
+    using an elegant DOM API
+  package_url: https://pypi.org/project/dominate
+  version: 2.7.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20707/default_e265a407e12a13d561d608e21516e6f3e1949e41.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: exceptiongroup
+  description: Backport of PEP 654
+  package_url: https://pypi.org/project/exceptiongroup
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: executing
+  description: Get the currently executing AST node of a frame
+  package_url: https://pypi.org/project/executing
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: fastjsonschema
+  description: Fastest Python implementation of JSON schema
+  package_url: https://pypi.org/project/fastjsonschema
+  version: 2.17.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: fastprogress
+  description: A nested progress with plotting options for fastai
+  package_url: https://pypi.org/project/fastprogress
+  version: 1.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: filelock
+  description: A platform independent file lock
+  package_url: https://pypi.org/project/filelock
+  version: 3.10.7
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20204/default_645e4030c04804ccf56eaad54caf7b7a73a44c64.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: firebase-admin
+  description: Firebase Admin Python SDK
+  package_url: https://pypi.org/project/firebase-admin
+  version: 4.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20517/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: fonttools
+  description: Tools to manipulate font files
+  package_url: https://pypi.org/project/fonttools
+  version: 4.39.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20488/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: fonttools XML External Entity Injection (XXE) Vulnerability
+    cve_id: CVE-2023-45139
+    cve_url: https://github.com/advisories/GHSA-6673-4983-2vx5
+    detected_date: Jan 10
+    severity: high
+    first_patched: 4.43.0
+- name: fsspec
+  description: File-system specification
+  package_url: https://pypi.org/project/fsspec
+  version: 2023.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 1.33.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.64.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-cloud-core
+  description: Google Cloud API client core library
+  package_url: https://pypi.org/project/google-cloud-core
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20215/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-cloud-firestore
+  description: Google Cloud Firestore API client library
+  package_url: https://pypi.org/project/google-cloud-firestore
+  version: 2.7.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20487/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 2.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: google-resumable-media
+  description: Utilities for Google Media Downloads and Resumable Uploads
+  package_url: https://pypi.org/project/google-resumable-media
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: googleapis-common-protos
+  description: Common protobufs used in Google APIs
+  package_url: https://pypi.org/project/googleapis-common-protos
+  version: 1.56.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20036/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: graphviz
+  description: Simple Python interface for Graphviz
+  package_url: https://pypi.org/project/graphviz
+  version: 0.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19981/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.49.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 1.53.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.53.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.53.0
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: hiredis
+  description: Python wrapper for hiredis
+  package_url: https://pypi.org/project/hiredis
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20297/default_fbb28b4e332d257da7e7f1277d3ce073b5270511.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: httplib2
+  description: A comprehensive HTTP client library
+  package_url: https://pypi.org/project/httplib2
+  version: 0.20.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19914/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  version: 0.15.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: hyperlink
+  description: A featureful, immutable, and correct URL for Python
+  package_url: https://pypi.org/project/hyperlink
+  version: 21.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20808/default_2fca31e88a503e1c222569be180a7353f4f9d2fd.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: imageio
+  description: Library for reading and writing a wide range of image
+  package_url: https://pypi.org/project/imageio
+  version: 2.16.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20258/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 4.11.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: incremental
+  description: UNKNOWN
+  package_url: https://pypi.org/project/incremental
+  version: 22.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: iniconfig
+  description: Brain-dead simple config-ini parsing
+  package_url: https://pypi.org/project/iniconfig
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: ipykernel
+  description: IPython Kernel for Jupyter
+  package_url: https://pypi.org/project/ipykernel
+  version: 6.23.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20282/default_23dd4b159eaa2c5b085470b39bf396fcc6cf2c38.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: ipywidgets
+  description: IPython HTML widgets for Jupyter
+  package_url: https://pypi.org/project/ipywidgets
+  version: 7.7.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jedi
+  description: An autocompletion tool for Python that can be used for text editors
+  package_url: https://pypi.org/project/jedi
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20260/default_9a53068260c70b2274df0967716480e7e3f74b0d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: joblib
+  description: 'Lightweight pipelining: using Python functions as pipeline jobs'
+  package_url: https://pypi.org/project/joblib
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20033/default_5a21cf44b42c3ef13f57dcd42ae753240ea7e808.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jsonpointer
+  description: Identify specific nodes in a JSON document
+  package_url: https://pypi.org/project/jsonpointer
+  version: '2.3'
+  license: Zed
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jupyter-client
+  description: Jupyter protocol implementation and client libraries
+  package_url: https://pypi.org/project/jupyter-client
+  version: 8.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20352/default_f465c24287ef1189cebf97fef20e50d0bbc5623d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jupyter-core
+  description: Jupyter core package
+  package_url: https://pypi.org/project/jupyter-core
+  version: 5.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20703/default_49f208ff144f55afc8c1c08f01bcb1eef2f5bb23.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: jupyter-server
+  description: The Jupyter Server
+  package_url: https://pypi.org/project/jupyter-server
+  version: 2.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: jupyter-server errors include tracebacks with path information
+    cve_id: CVE-2023-49080
+    cve_url: https://github.com/advisories/GHSA-h56g-gq9v-vc8r
+    detected_date: Dec 7
+    severity: moderate
+    first_patched: 2.11.2
+  - name: " Open Redirect Vulnerability in jupyter-server"
+    cve_id: CVE-2023-39968
+    cve_url: https://github.com/advisories/GHSA-r726-vmfq-j9j3
+    detected_date: Aug 30
+    severity: moderate
+    first_patched: 2.7.2
+  - name: cross-site inclusion (XSSI) of files in jupyter-server
+    cve_id: CVE-2023-40170
+    cve_url: https://github.com/advisories/GHSA-64x5-55rw-9974
+    detected_date: Aug 30
+    severity: moderate
+    first_patched: 2.7.2
+- name: kiwisolver
+  description: A fast implementation of the Cassowary constraint solver
+  package_url: https://pypi.org/project/kiwisolver
+  version: 1.4.4
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20772/default_b92e3d801a6b8cc7a378e4f7c25f52a138a86391.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: lazy-object-proxy
+  description: A fast and thorough lazy object proxy
+  package_url: https://pypi.org/project/lazy-object-proxy
+  version: 1.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20270/default_8197520bb021ab2bc2cb991350ef948366688c94.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: mccabe
+  description: McCabe checker, plugin for flake8
+  package_url: https://pypi.org/project/mccabe
+  version: 0.6.1
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20323/default_cafc15de82628e6c121e1ea9ce941c1410268b49.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: mistune
+  description: The fastest markdown parser in pure Python
+  package_url: https://pypi.org/project/mistune
+  version: 2.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20077/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: moviepy
+  description: Video editing with Python
+  package_url: https://pypi.org/project/moviepy
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20492/default_7e42545a0162c6dd67f6adc715d6eabd6d2d2736.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: mpmath
+  description: Python library for arbitrary-precision floating-point arithmetic
+  package_url: https://pypi.org/project/mpmath
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: msgpack
+  description: MessagePack
+  package_url: https://pypi.org/project/msgpack
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19934/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: multidict
+  description: Multidict implementation
+  package_url: https://pypi.org/project/multidict
+  version: 6.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20160/default_8822b1755ae0c97a622ebcb1aa9cafa328004f81.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: multiprocess
+  description: Better multiprocessing and multithreading in python
+  package_url: https://pypi.org/project/multiprocess
+  version: 0.70.14
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20654/default_4658783a4f70e14bc0c2a151840ea9736539842c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: murmurhash
+  description: Cython bindings for MurmurHash
+  package_url: https://pypi.org/project/murmurhash
+  version: 1.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: nbconvert
+  description: Converting Jupyter Notebooks
+  package_url: https://pypi.org/project/nbconvert
+  version: 7.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20059/default_07febc56eb57b6d4c91eb3ad11874d5d88882ab0.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: nbformat
+  description: The Jupyter Notebook format
+  package_url: https://pypi.org/project/nbformat
+  version: 5.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20035/default_a3692729f5b4ca7eb94218522ed4260bba4a5c15.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: nest-asyncio
+  description: Patch asyncio to allow nested event loops
+  package_url: https://pypi.org/project/nest-asyncio
+  version: 1.5.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20756/default_3b89e4079f3032d1be4fc7657dcb47e23c973660.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: '3.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: notebook
+  description: A web-based notebook environment for interactive computing
+  package_url: https://pypi.org/project/notebook
+  version: 6.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20024/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: oauthlib
+  description: A generic
+  package_url: https://pypi.org/project/oauthlib
+  version: 3.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: OAuthLib vulnerable to DoS when attacker provides malicious IPV6 URI
+    cve_id: CVE-2022-36087
+    cve_url: https://github.com/advisories/GHSA-3pgj-pg6c-r5p7
+    detected_date: Sep 17
+    severity: moderate
+    first_patched: 3.2.2
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: overrides
+  description: A decorator to automatically detect mismatch when overriding a method
+  package_url: https://pypi.org/project/overrides
+  version: 7.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '21.3'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pandocfilters
+  description: Utilities for writing pandoc filters in python
+  package_url: https://pypi.org/project/pandocfilters
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20528/default_1977a1f74deaf220f3f454ab642f7526a744ed5f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: paramiko
+  description: SSH2 protocol library
+  package_url: https://pypi.org/project/paramiko
+  version: 2.11.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19896/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC
+      aka Terrapin
+    cve_id: CVE-2023-48795
+    cve_url: https://github.com/advisories/GHSA-45x7-px36-x8w8
+    detected_date: Dec 20
+    severity: moderate
+    first_patched: 3.4.0
+- name: parso
+  description: A Python Parser
+  package_url: https://pypi.org/project/parso
+  version: 0.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20216/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pickleshare
+  description: Tiny 'shelve'-like database with concurrency support
+  package_url: https://pypi.org/project/pickleshare
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20603/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pika
+  description: Pika Python AMQP Client Library
+  package_url: https://pypi.org/project/pika
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19997/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pipenv
+  description: Python Development Workflow for Humans
+  package_url: https://pypi.org/project/pipenv
+  version: 2023.3.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20516/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pipreqs
+  description: Pip requirements.txt generator based on imports in project
+  package_url: https://pypi.org/project/pipreqs
+  version: 0.4.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: pipreqs vulnerable to Dependency Confusion
+    cve_id: CVE-2023-31543
+    cve_url: https://github.com/advisories/GHSA-v4f4-23wc-99mh
+    detected_date: Jul 1
+    severity: critical
+    first_patched: 0.4.12
+- name: pluggy
+  description: Plugin and hook calling mechanisms for python
+  package_url: https://pypi.org/project/pluggy
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20041/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: preshed
+  description: Cython hash table that trusts the keys are pre-hashed
+  package_url: https://pypi.org/project/preshed
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: prompt-toolkit
+  description: Library for building powerful interactive command lines in Python
+  package_url: https://pypi.org/project/prompt-toolkit
+  version: 3.0.38
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.5
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: ptyprocess
+  description: Run a subprocess in a pseudo terminal
+  package_url: https://pypi.org/project/ptyprocess
+  version: 0.7.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20391/default_ec7f908dc4ac3533950df7d8e371292c0bdc3812.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: py
+  description: Library with cross-python path
+  package_url: https://pypi.org/project/py
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19962/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: 'ReDoS in py library when used with subversion '
+    cve_id: CVE-2022-42969
+    cve_url: https://github.com/advisories/GHSA-w596-4wvx-j9j6
+    detected_date: Oct 18
+    severity: high
+    first_patched: 
+- name: pyOpenSSL
+  description: Python wrapper module around the OpenSSL library
+  package_url: https://pypi.org/project/pyOpenSSL
+  version: 22.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19873/default_7ed3c4ccf2a3218ae3655165b980bd4a90a445dc.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/project/pyarrow
+  version: 12.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: 'PyArrow: Arbitrary code execution when loading a malicious data file'
+    cve_id: CVE-2023-47248
+    cve_url: https://github.com/advisories/GHSA-5wvp-7f3h-6wmm
+    detected_date: Nov 10
+    severity: critical
+    first_patched: 14.0.1
+- name: pyasn1
+  description: ASN.1 types and codecs
+  package_url: https://pypi.org/project/pyasn1
+  version: 0.4.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19915/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pyasn1-modules
+  description: A collection of ASN.1-based protocols modules
+  package_url: https://pypi.org/project/pyasn1-modules
+  version: 0.2.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20090/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pycodestyle
+  description: Python style guide checker
+  package_url: https://pypi.org/project/pycodestyle
+  version: 2.9.1
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20145/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.21'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 4.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 3.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pyrsistent
+  description: Persistent/Functional/Immutable data structures
+  package_url: https://pypi.org/project/pyrsistent
+  version: 0.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20112/default_07c33e3fe9188a5efef46b09a8d6468a52dce7cb.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  version: 2.8.2
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: python-json-logger
+  description: A python library adding a json log formatter
+  package_url: https://pypi.org/project/python-json-logger
+  version: 2.0.7
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20268/default_ac8229927eda3d44316aa5b5d6704388a231bb77.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  version: '2022.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 25.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/project/regex
+  version: 2023.6.3
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.27.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: requests-oauthlib
+  description: OAuthlib authentication support for Requests
+  package_url: https://pypi.org/project/requests-oauthlib
+  version: 1.3.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19926/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  version: 0.18.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: rsa
+  description: Pure-Python RSA implementation
+  package_url: https://pypi.org/project/rsa
+  version: '4.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: ruamel.yaml
+  description: Ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
+    of comments
+  package_url: https://pypi.org/project/ruamel.yaml
+  version: 0.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19918/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: smart-open
+  description: Utils for streaming large files
+  package_url: https://pypi.org/project/smart-open
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: social-auth-core
+  description: Python social authentication made simple
+  package_url: https://pypi.org/project/social-auth-core
+  version: 4.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: soupsieve
+  description: A modern CSS selector implementation for Beautiful Soup
+  package_url: https://pypi.org/project/soupsieve
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20367/default_f96848c380cbdcec99ab678e027c29229da52205.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  version: 0.4.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: sqlparse contains a regular expression that is vulnerable to Regular Expression
+      Denial of Service
+    cve_id: CVE-2023-30608
+    cve_url: https://github.com/advisories/GHSA-rrm6-wvj7-cwh2
+    detected_date: Apr 22
+    severity: moderate
+    first_patched: 0.4.4
+- name: srsly
+  description: Modern high-performance serialization utilities for Python
+  package_url: https://pypi.org/project/srsly
+  version: 2.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: stripe
+  description: Python bindings for the Stripe API
+  package_url: https://pypi.org/project/stripe
+  version: 2.55.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20448/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: terminado
+  description: Terminals served to xterm.js using Tornado websockets
+  package_url: https://pypi.org/project/terminado
+  version: 0.17.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20664/default_7a811a73f70dc50b94351ae6cb030cc7b1540ea6.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: thinc
+  description: Practical Machine Learning for NLP
+  package_url: https://pypi.org/project/thinc
+  version: 8.1.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: tinycss2
+  description: Low-level CSS parser for Python
+  package_url: https://pypi.org/project/tinycss2
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: torchvision
+  description: Image and video datasets and models for torch deep learning
+  package_url: https://pypi.org/project/torchvision
+  version: 0.15.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20377/default_86c41789cbd5dc6b872b122419740f58f5d2f18a.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: tornado
+  description: Tornado is a Python web framework and asynchronous networking library
+  package_url: https://pypi.org/project/tornado
+  version: 6.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19860/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: Tornado vulnerable to HTTP request smuggling via improper parsing of `Content-Length`
+      fields and chunk lengths
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qppv-j76h-2rpx
+    detected_date: Aug 15
+    severity: moderate
+    first_patched: 6.3.3
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.62.3
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: traitlets
+  description: Traitlets Python config system
+  package_url: https://pypi.org/project/traitlets
+  version: 5.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20029/default_73018c8841403fdd7d8f629d056cba8f938c5589.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: txaio
+  description: Compatibility API between asyncio/Twisted/Trollius
+  package_url: https://pypi.org/project/txaio
+  version: 22.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.4.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: uritemplate
+  description: URI templates
+  package_url: https://pypi.org/project/uritemplate
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20156/default_0a9d6219a6023591895a9db3a2e96da524d7a0a8.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: virtualenv
+  description: Virtual Python Environment builder
+  package_url: https://pypi.org/project/virtualenv
+  version: 20.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19970/default_1c8812e05cf754e8f654b8d86b3f025827f5bfb6.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: wasabi
+  description: A lightweight console printing and formatting toolkit
+  package_url: https://pypi.org/project/wasabi
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: webcolors
+  description: A library for working with color names and color values formats defined
+    by HTML and CSS
+  package_url: https://pypi.org/project/webcolors
+  version: '1.13'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20536/default_204c8420775bf241799cfda883755b8613757a78.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: webencodings
+  description: Character encoding aliases for legacy web content
+  package_url: https://pypi.org/project/webencodings
+  version: 0.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20327/default_1342a7e78c3c34f58715077849cd487ffddd263d.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  version: 1.5.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: whitenoise
+  description: Radically simplified static file serving for WSGI applications
+  package_url: https://pypi.org/project/whitenoise
+  version: 6.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20302/default_e6bfb9eb79752f0f359e80676966e216a56792ab.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: wrapt
+  description: Module for decorators, wrappers and monkey patching
+  package_url: https://pypi.org/project/wrapt
+  version: 1.13.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19946/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: xxhash
+  description: Python binding for xxHash
+  package_url: https://pypi.org/project/xxhash
+  version: 3.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20358/default_a54cbb457d7aac7ab53484c3473848dbdd84d806.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: yarl
+  description: Yet another URL library
+  package_url: https://pypi.org/project/yarl
+  version: 1.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20083/default_d8789f2f1b5b4e9994bef68371453a20460b4d6e.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: zope.interface
+  description: Interfaces for Python
+  package_url: https://pypi.org/project/zope.interface
+  version: 5.5.0
+  license: ZPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19905/default_3846e1a96a2a21d085febee35b98cbcb22994ee7.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-30 10:34:26.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 5.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
+- name: "@vue/cli-plugin-eslint"
+  description: Eslint plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-eslint
+  version: 5.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 5.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.31.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 8.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:30:19.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/martin-creator/GPT/blob/master/conversationalapp/client/package-lock.json
+  detection_source: conversationalapp/client/package.json
+  last_updated_by: martin-creator
+  last_updated_on: 2023-06-23 06:40:57.000000000 Z
